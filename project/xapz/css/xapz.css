@@ -1,0 +1,374 @@
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, microft yahei;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+a {
+  font-size: 14px;
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+#logo-box {
+  width: 1211px;
+  margin: 0 auto 10px;
+  height: 120px;
+  display: flex;
+  position: relative;
+}
+#logo-box img {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+#logo-box div.tel {
+  margin-top: 35px;
+  margin-left: 80px;
+}
+#logo-box p {
+  font-size: 20px;
+  color: #ff0000;
+  line-height: 10px;
+}
+#search-box {
+  height: 40px;
+  position: absolute;
+  right: 40px;
+  top: 45px;
+}
+#search-box .input-group-addon {
+  background-color: #2aabd2;
+  border: 1px solid  #2aabd2;
+  color: #d0e9c6;
+}
+.dropdown-menu > li a {
+  color: #d0e9c6;
+}
+.dropdown-menu > li a:hover {
+  color: #083e7c;
+}
+/*���岿��*/
+/*1����������*/
+div.carousel {
+  width: 1140px;
+  height: 350px;
+}
+.carousel-inner > div.item > img {
+  width: 1140px;
+  height: 350px;
+  border-left: 5px solid #269abc;
+  border-right: 5px solid #fff;
+}
+.flip-container {
+  perspective: 1000;
+  margin-bottom: 20px;
+}
+.flip-container:hover .far-container {
+  transform: rotateY(180deg);
+}
+.far-container {
+  width: 250px;
+  height: 200px;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 10px;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+#four-img div.back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 200px;
+  background-color: #333333;
+  opacity: 0.7;
+  z-index: 0;
+  transform: rotateY(180deg);
+}
+#four-img div.back p {
+  color: #d0e9c6;
+  font-size: 20px;
+  font-style: italic;
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#four-img div.front {
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 200px;
+}
+div.main-dec {
+  margin-left: 40px;
+  position: relative;
+  margin-bottom: 10px;
+}
+div.main-dec p {
+  position: absolute;
+  left: 53px;
+  top: 0;
+  color: #fff;
+}
+.first-col ul li {
+  margin-top: 10px;
+}
+#second-col div.main-dec {
+  margin-left: 195px;
+}
+#about-us img {
+  float: left;
+}
+#about-us p {
+  text-indent: 30px;
+}
+/*�ڶ��е�һ�У���ϵ����*/
+#connect-box {
+  z-index: 30;
+}
+#connect span {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/*�ڶ��е�3�У�������ѯ*/
+#consult {
+  z-index: 30;
+}
+#consult ul li {
+  margin-bottom: 10px;
+}
+#Product-display div.main-dec {
+  margin-top: -35px;
+  margin-left: 195px;
+}
+#Product-box {
+  width: 500px;
+  height: 240px;
+  overflow: hidden;
+  padding: 5px;
+  position:relative;
+}
+#Product-box ul.list-inline {
+  height: 230px;
+  /*width: 1820px;*/
+  /*margin-left:10px;*/
+  position:absolute;
+  top:0;
+  left:20px;
+}
+#Product-box ul.list-inline li {
+  height: 220px;
+  width: 250px;
+  float: left;
+  z-index: 0;
+  /*border: 1px dashed red;*/
+  /*margin: 5px;*/
+  /*padding-left: 15px;*/
+  padding-bottom: 5px;
+}
+#Product-box ul.list-inline li>img {
+  display: inline-block;
+  width: 210px;
+  height: 200px;
+}
+footer {
+  height: 120px;
+  background-color: #336699;
+  padding-top: 20px;
+}
+footer > p {
+  color: #fff;
+  text-align: center;
+}
+#ad {
+  position: relative;
+}
+#ad div.ad-box {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+#ad div.ad-box p {
+  font-size: 30px;
+  color: #0ded5f;
+}
+#about-company {
+  border-bottom: 2px solid #204d74;
+}
+#about-company p {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #204d74;
+  text-align: center;
+}
+#ad-text p {
+  font-size: 20px;
+  color: #204d74;
+}
+#tel {
+  margin-left: 20px;
+  margin-top: 45px;
+  position: relative;
+}
+#tel div {
+  position: absolute;
+  left: 50px;
+  top: -5px;
+}
+#decoration div.d1 p,
+div.d2 p,
+div.d3 p,
+div.d4 p {
+  text-align: right;
+  margin-right: 20px;
+}
+#decoration div p:first-child {
+  font-size: 30px;
+  color: #9d9d9d;
+}
+#decoration div p:nth-child(2) {
+  font-size: 20px ;
+  color: #204d74;
+}
+#decoration div p:nth-child(3) {
+  font-size: 14px;
+  color: #0ded5f;
+}
+#decoration div.d1 {
+  margin-top: 20px;
+  margin-bottom: 240px;
+}
+#decoration div.d2 {
+  margin-bottom: 50px;
+}
+#decoration div.d3 {
+  margin-bottom: 270px;
+}
+#main-business ol.main-text1 li {
+  text-indent: 30px;
+  line-height: 2.0;
+  font-size: 16px;
+  color: #9d9d9d;
+}
+#main-business ol.main-text1 li a {
+  font-size: 16px;
+  color: #9d9d9d;
+}
+#main-image ul li img {
+  width: 280px;
+  height: 177px;
+  margin-top: 20px;
+}
+/*��ҵ�Ļ�����*/
+/*��ҵ�Ļ�������*/
+nav.Culture-box {
+  width: 1211px;
+  margin: 0 auto 10px;
+  height: 120px;
+  background: linear-gradient(to right, rgba(26, 98, 5, 0), #083e7c);
+  display: flex;
+}
+nav.Culture-box a img {
+  margin-top: 15px;
+}
+nav.Culture-box div.Culture-nav ul {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+nav.Culture-box div.Culture-nav ul li {
+  margin-right: 20px;
+}
+nav.Culture-box div.Culture-nav ul li a {
+  font-size: 16px;
+  color: #fff;
+}
+nav.Culture-box div.Culture-nav ul li:hover {
+  transform: translateY(10px);
+}
+#main-Culture {
+  width: 1024px;
+  height: 410px;
+  background: url(Images/qiyewenhua.png) no-repeat;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+#main-Culture div i {
+  display: inline-block;
+  margin-left: 460px;
+  padding-top: 40px;
+  font-size: 30px;
+  color: #fff;
+}
+#main-Culture ul {
+  margin-left: 80px;
+}
+#main-Culture ul li {
+  margin-top: 20px;
+  color: #204d74;
+}
+#jiazhiguan {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #9d9d9d;
+}
+#jiazhiguan img {
+  margin: 80px 50px;
+}
+#pengzhi-logo div {
+  margin: 185px 325px;
+}
+#pengzhi-logo div img {
+  display: inline-block;
+  width: 500px;
+}
+#pengzhi-logo {
+  position: relative;
+}
+#pengzhi-logo div.development {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: -260px;
+  top: -380px;
+}
+#pengzhi-logo div.development h2 {
+  color: #245580;
+}
+#pengzhi-logo div.development span {
+  color: #419641;
+  font-size: 18px;
+}
+#pengzhi-logo div.development p {
+  font-size: 20px;
+  line-height: 2.0;
+  margin-top: 15px;
+}
+#pengzhi-logo div.service {
+  position: absolute;
+  left: 450px;
+  top: -330px;
+}
+#pengzhi-logo div.design {
+  position: absolute;
+  left: -260px;
+  top: 120px;
+}
+#pengzhi-logo div.production {
+  position: absolute;
+  left: 450px;
+  top: 190px;
+}

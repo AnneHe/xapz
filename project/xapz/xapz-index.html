@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--1、指定语言基础-->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!--2、指定视口信息-viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!--3、指定 跨IE 浏览器的兼容性-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>西安鹏致电子科技有限公司</title>
+    <!--4、引入 bootstrap.css 主css文件-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/xapz.css"/>
+    <!--5、引入两个 兼容性 js文件-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div>
+<!--页面顶部logo与搜索框-->
+
+        <div id="logo-box">
+            <img src="Images/logo1.jpg" />
+            <div class="tel">
+           <p>---业务洽谈专线---</p>
+            <br/>
+            <p>何经理：18821620285</p>
+            </div>
+            <div id="search-box">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputAmount">产品</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">产品</div>
+                            <input type="text" class="form-control" id="exampleInputAmount" placeholder="产品名称">
+
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">搜索</button>
+                </form>
+            </div>
+        </div>
+<!--主体部分-->
+<!--1、导航条-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <ul class="nav nav-tabs">
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="About us.html">企业简介</a>
+                </li>
+                <li>
+                    <a href="Corporate-Culture.html">企业文化</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#"  data-toggle="dropdown" class="dropdown-toggle">产品中心</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">新能源智能箱变监控系统解决方案</a>
+                        </li>
+                        <li>
+                            <a href="#">变配电自动化解决方案</a>
+                        </li>
+                        <li>
+                            <a href="#">变配电系统二次元件</a>
+                        </li>
+                        <li>
+                        <a href="#">电网接地故障在线监测系统解决方案</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#">产品服务</a>
+                </li>
+                <li>
+                    <a href="#">新闻动态</a>
+                </li>
+                <li>
+                    <a href="#">营销网络</a>
+                </li>
+                <li>
+                    <a href="#">招贤纳士</a>
+                </li>
+                <li>
+                    <a href="#">联系我们</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+
+<!--2、图片轮播部分-->
+        <div class="row">
+            <div class="col-md-12">
+                   <div class="carousel slide" data-ride="carousel" data-interval="2000" id="carousel-generic">
+                       <ul class="carousel-indicators">
+                           <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                           <li data-target="#carousel-generic" data-slide-to="1"></li>
+                           <li data-target="#carousel-generic" data-slide-to="2"></li>
+                           <li data-target="#carousel-generic" data-slide-to="3"></li>
+                           <li data-target="#carousel-generic" data-slide-to="4"></li>
+                       </ul>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="Images/fengdian1.jpg" />
+                           </div>
+                            <div class="item ">
+                                <img src="Images/fengdian2.jpg" />
+                            </div>
+                            <div class="item ">
+                                <img src="Images/zhinengdianwang1.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Images/guangfu1.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Images/zhinengdianwang2.jpg" />
+                            </div>
+                        </div>
+                       <a class="left carousel-control" href="#carousel-generic"  data-slide="prev">
+                           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                       </a>
+                       <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+                           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                       </a>
+                   </div>
+            </div>
+        </div>
+        <!--四幅小图-->
+        <div class="row" id="four-img">
+            <div class="col-md-3 flip-container" >
+                <div class="far-container">
+                    <div class="front">
+                        <a href="#">
+                            <img src="Images/2017-05-28_105100.png" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                        <p>不断创新，做行业最好、最优秀的产品，服务于社会</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 flip-container">
+                <div class="far-container">
+                    <div class="front">
+                        <a href="#">
+                            <img src="Images/2017-05-28_105447.png" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                       <p>超越梦想，超越自己，向更远更好的目标不断努力</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 flip-container">
+                <div class="far-container">
+                    <div class="front">
+                        <a href="#">
+                            <img src="Images/2017-05-28_121732.png" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                        <p>重视品牌、实施品牌战略，缔造民族工业电气产品</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-md-3 flip-container">
+                <div class="far-container">
+                    <div class="front">
+                        <a href="#">
+                            <img src="Images/2017-05-28_122216.png" alt="">
+                        </a>
+                    </div>
+                    <div class="back">
+                        <p>为社会、为顾客、为员工提供最优服务</p>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+<!--主体内容介绍-->
+<!--2行3列-->
+        <div class="row">
+    <!--1、第一行第一列，行业资讯-->
+            <div class="col-md-3 first-col">
+                <div class="main-dec">
+                    <img src="Images/icon-2.jpg" alt=""/>
+                    <p><a href="#">行业资讯</a></p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">上半年风电在建规模占比大增</a>
+                    </li>
+                    <li>
+                        <a href="#">新疆今年试水风电清洁供暖</a>
+                    </li>
+                    <li>
+                        <a href="#">风电弃风问题依然难解有愈演愈烈之势</a>
+                    </li>
+                    <li>
+                        <a href="#">中国风电大发展释放巨大运维市场</a>
+                    </li>
+                    <li>
+                        <a href="#">2016年上半年全国风电并网概况</a>
+                    </li>
+                    <li>
+                        <a href="#">光伏电站清洗方案大汇总</a>
+                    </li>
+                    <li>
+                        <a href="#">2016年光伏发电建设信息</a>
+                    </li>
+                </ul>
+
+            </div>
+    <!--2、第一行第二列，关于我们-->
+            <div class="col-md-6" id="second-col">
+                <div class="main-dec">
+                    <img src="Images/icon-2.jpg" alt=""/>
+                    <p><a href="About us.html">关于我们</a></p>
+                </div>
+                <div id="about-us">
+                    <a href="#">
+                        <img src="Images/about us.JPG" alt=""/>
+                        <p>     西安鹏致电子科技有限公司是以信息化网络化技术为依托的电力自动化设备制造商。以构建稳定可靠智能化输变电系统为宗旨，本着努力奋斗，不断创新确保精准的原则，秉承务实、执著、诚信的服务精神，提供最优化的产品和一流的服务。公司座落于西安高新区瞪羚谷创业研发园，是国家重要的科技成果转化基地，国际化的创新基地。西安鹏致由长年从事电力自动化行业的专家领军，青年博硕士为骨干，是一支充满激情、富有创造力的精英团队。我们的目标是在电力系统自动化、智能化领域在国际上成为行业领先者，用丰厚的利润回报股东、员工和社会。使公司在变电站自动化、开闭所、开关柜智能化领域，成为具有研发能力、生产能力与工程能力的行业领先者，打造行业内的继电保护专家。</p>
+                    </a>
+                </div>
+            </div>
+    <!--3、第一行第三列，公司新闻-->
+            <div class="col-md-3">
+                <div class="main-dec">
+                    <img src="Images/icon-2.jpg" alt=""/>
+                    <p><a href="#">公司新闻</a></p>
+                </div>
+                <ul class="media-list">
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="Images/new-1.JPG" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                          <p>2010-09-12 - 2011年6月PZ1000通过国家继电器检测中心的型式试验</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="Images/new-2.JPG" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <p>2010年12月西安鹏致电子科技有限公司获得西安高新开发区创业研发园2010年度创业奖</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="Images/new-3.JPG" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <p>PZ1310T通讯管理机型光伏箱变测控系统黎城协信光伏电力有限公司30MW光伏发电项目调试完工</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    <!--第二行内容-->
+        <div class="row">
+    <!--1、第一列，联系我们-->
+            <div class="col-md-3" id="connect-box">
+                <div class="main-dec">
+                    <img src="Images/icon-2.jpg" alt=""/>
+                    <p><a href="#">联系我们</a></p>
+                </div>
+                <div id="connect">
+                    <span>
+                        <img src="Images/qq.JPG" alt=""/>&nbsp;&nbsp;商务QQ：2602851188
+                    </span>
+                     <span>
+                        <img src="Images/qq.JPG" alt=""/>&nbsp;&nbsp;技术QQ：584014379
+                    </span>
+                    <address>
+                        <strong>西安鹏致电子科技有限公司</strong><br>
+                       地址：西安市科技二路77号<br>
+                       电话：029-88175187<br>
+                        网址：www.xapz.com <br/>
+                        直线： 18821620285
+
+                    <address>
+                        <strong>邮箱</strong><br>
+                        <a href="mailto:#">584014379@qq.com</a>
+                    </address>
+                </div>
+
+            </div>
+    <!--2、第二列，产品展示-->
+            <div class="col-md-6" id="Product-display">
+                <div class="main-dec">
+                    <img src="Images/icon-2.jpg" alt=""/>
+                    <p><a href="#">产品展示</a></p>
+                </div>
+                <div id="Product-box">
+                  <ul class="list-inline" >
+                      <li>
+                          <img src="Images/pz1200.png" alt="PZ1200系列测控装置"/>
+                          <p>PZ1200系列测控装置</p>
+                      </li>
+                      <li>
+                          <img src="Images/pz1300.png" alt="PZ1300光伏测控装置"/>
+                          <p>PZ1300光伏测控装置</p>
+                      </li>
+                      <li>
+                          <img src="Images/pz3200.png" alt="PZ1310风电测控装置"/>
+                          <p>PZ3200配电测控装置</p>
+                      </li>
+                      <li>
+                          <img src="Images/pz380.png" alt="pz380时间同步测试仪"/>
+                          <p>PZ380时间同步测试仪</p>
+                      </li>
+                      <li>
+                          <img src="Images/pz300.png" alt="PZ300系列时间同步装置"/>
+                          <p>PZ300系列时间同步装置</p>
+                      </li>
+                      <li>
+                          <img src="Images/pz610.png" alt="PZ610网络分析仪及故障录波"/>
+                          <p>PZ610网络分析仪及故障录波</p>
+                      </li>
+                      <li>
+                          <img src="Images/pz620.png" alt="PZ620智能变电站数字信号测试仪"/>
+                          <p>PZ610网络分析仪及故障录波</p>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+    <!--3、第三列，技术咨询-->
+                <div class="col-md-3 first-col" id="consult">
+                    <div class="main-dec">
+                        <img src="Images/icon-2.jpg" alt=""/>
+                        <p><a href="#">技术咨询</a></p>
+                    </div >
+                    <ul>
+                        <li>
+                            <a href="#">PZ1300箱变监控系统光纤环网</a>
+                        </li>
+                        <li>
+                            <a href="#">中国光伏分布式发展潜力巨大</a>
+                        </li>
+                        <li>
+                            <a href="#">中国光伏累计安装量</a>
+                        </li>
+                        <li>
+                            <a href="#">无法忽视的光伏连接器</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <!--页面底部-->
+    <footer class="container">
+        <p>Copyright©2008-2016 //www.xapz.com All rights reserved版权所有 西安鹏致电子科技有限公司  未经许可严禁复制 Add：陕西省西安市科技二路77号 </p>
+        <p>emil:584014379@qq.com Tel:18821620285</p>
+        <p>陕ICP备11008175</p>
+
+    </footer>
+<!--6、引入 两个JS插件文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+    <script src="js/slider.js"></script>
+
+    <script>
+        //创建文档片段
+        //var frag=document.createDocumentFragment();
+        //<li>
+        //<a href="#">
+        //<img src="Images/pz3200.png" alt="PZ1310风电测控装置"/>
+        //</a>
+        //<p>PZ3200配电测控装置</p>
+        //</li>
+
+        var json=[
+            {"src":"Images/pz1200.png", "alt":"PZ1200系列测控装置"},
+            {"src":"Images/pz1300.png", "alt":"PZ1300光伏测控装置"}
+        ];
+        var ul=document.getElementsByClassName("list-inline")[0];
+        //console.log(ul);
+       var frag=document.createDocumentFragment();
+        for (var i=0;i<=1;i++){
+            var li=document.createElement("li");
+
+
+        frag.appendChild(li);
+            var img=document.createElement("img");
+            img.src=json[i]["src"];
+            li.appendChild(img);
+        var p=document.createElement("p");
+        p.innerHTML=json[i]["alt"];
+        li.appendChild(p);
+        }
+        ul.appendChild(frag);
+
+    </script>
+<!--7、引入检查文件-->
+<script src="js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>

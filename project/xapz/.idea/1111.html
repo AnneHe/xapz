@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script language="javascript" src="js/jquery-1.11.3.js"></script>
+    <script language="javascript" src="datepicker/WdatePicker.js"></script>
+    <script>
+        $("#toDate").focus(function(){
+            WdatePicker({
+                dateFmt:"yyyy-MM-dd"
+            });
+        });
+    </script>
+</head>
+<body>
+<input type="text" id="fromDate" />
+To
+<input type="text" id="toDate" />
+</body>
+</html>
